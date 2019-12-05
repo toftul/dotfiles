@@ -1,0 +1,35 @@
+
+snippet 'vecc' "vector" wrA
+\vec{$1}
+endsnippet
+
+snippet 'qqq' "qquad" wrA
+\qquad
+endsnippet
+
+snippet 'eqq' "equation" wrA 
+$$
+	$0
+$$
+endsnippet
+
+snippet fig "Figure" b
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.5\textwidth]{fig/$1}
+ \caption{$2}
+ \label{fig:$1}
+\end{figure}
+endsnippet	
+
+
+snippet block "block enviroment" b
+\begin{block}{$1}
+$0
+\end{block}
+endsnippet
+
+	
+snippet '\$\$' "Inline math" wrA 
+$$1$$0
+endsnippet
