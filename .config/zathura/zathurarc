@@ -1,0 +1,14 @@
+# hide everything by default
+#set guioptions non
+# copy to clipboard
+set selection-clipboard clipboard
+
+# start maximized
+set window-height 3000
+set window-width 3000
+
+# change background color
+set default-bg "#282828"
+
+# hide status bar
+set guioptions none
