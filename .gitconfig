@@ -1,0 +1,5 @@
+[credential]
+	helper = cache
+[user]
+	email = toftul.ivan@gmail.com
+	name = Ivan
