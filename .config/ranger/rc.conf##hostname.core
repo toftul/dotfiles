@@ -343,7 +343,7 @@ map bt cd ~/data/gdrive/science/teaching
 map bc cd ~/.config
 map bd cd ~/Downloads 
 map bi cd ~/Downloads/inbox_articles
-map bp cd ~/gdrive/Photos
+map bp cd ~/data/gdrive/Photos
 map bw cd ~/Pictures/Wallpapers 
 map bv cd ~/Videos
 
