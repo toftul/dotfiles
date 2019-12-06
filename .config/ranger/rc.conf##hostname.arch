@@ -615,7 +615,7 @@ copytmap <ESC> q Q w <C-c>
 map <C-f> fzf_select
 
 # drag and drop using gragon https://github.com/mwh/dragon
-map <C-d> shell dragon -a -x %p
+map <C-d> shell dragon-drag-and-drop -a -x %p
 
 # move to trash
 map DD shell mv %s /home/${USER}/.local/share/Trash/files/
