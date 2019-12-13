@@ -338,7 +338,7 @@ map }     traverse
 # bookmarks
 map bh cd ~
 map br cd ~/data/gdrive/science/research 
-map bs cd ~/data/gdrive/science/studding/studentPhD/2c1s
+map bs cd ~/data/gdrive/science/studying/studentPhD/2c1s
 map bt cd ~/data/gdrive/science/teaching
 map bc cd ~/.config
 map bd cd ~/Downloads 
