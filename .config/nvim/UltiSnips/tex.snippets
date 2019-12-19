@@ -216,3 +216,35 @@ snippet standalone "write single equation" b
     $$1$
 \end{document}
 endsnippet
+
+
+
+
+snippet template_review "Paper review template" b
+
+\documentclass[12pt,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage[margin=3cm]{geometry} 
+
+\address{} 
+\signature{reviewer} 
+
+
+\newcommand{\ttl}{$1} 
+
+\begin{document} 
+	
+	
+	\begin{letter}{to the authors}
+		\opening{\textbf{Review of the "\ttl"}} 
+	
+	In the work titled "\ttl" authors $0
+
+
+\end{document}
+
+endsnippet
