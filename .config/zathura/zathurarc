@@ -12,3 +12,7 @@ set default-bg "#282828"
 
 # hide status bar
 set guioptions none
+
+
+# scrolling speed
+set scroll-step 70
