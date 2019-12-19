@@ -1,0 +1,10 @@
+#!/bin/sh
+while read file
+do
+        case "$1" in
+        "C-d")
+                dragon-drag-and-drop -a -x "$file" ;;
+        "C-c")
+                echo -n "$file" | xclip -selection clipboard ;;
+        esac
+done
