@@ -43,6 +43,7 @@ abbr t "nvim ~/Documents/todo.txt"
 abbr ttl "sudo sysctl net.ipv4.ip_default_ttl=65"
 abbr jl "jupyter lab"
 abbr jn "jupyter notebook"
+abbr swapclear "sudo swapoff -a && sudo swapon -a"
 
 # set prompt
 function fish_prompt --description 'Write out the prompt'
