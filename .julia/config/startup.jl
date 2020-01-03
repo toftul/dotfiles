@@ -1,4 +1,4 @@
-if gethostname() == "arch"
+if gethostname() == "core"
     push!(
           LOAD_PATH, 
           "/home/ivan/data/gdrive/science/research/projects/julia-modules/FiberEldyn/src"
