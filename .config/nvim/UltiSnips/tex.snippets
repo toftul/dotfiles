@@ -248,3 +248,39 @@ snippet template_review "Paper review template" b
 \end{document}
 
 endsnippet
+
+
+snippet template_standalone "for single equation render" b 
+
+
+\documentclass[preview]{standalone}
+
+
+% general packages
+\usepackage{amsfonts}
+\usepackage{amsmath} 
+\usepackage{physics} 
+\usepackage{mathtools} 
+\usepackage{graphicx}
+\usepackage[margin = 3cm]{geometry} 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{blindtext} 
+\usepackage{sfmath}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\ \\ 
+\[
+    $0
+\]
+\ 
+
+\end{document}
+
+endsnippet 
