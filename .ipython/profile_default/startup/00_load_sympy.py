@@ -3,4 +3,4 @@ init_printing()
 
 x, y, z, t = symbols("x y z t")
 theta, phi, gamma, beta = symbols("theta phi gamma beta")
-i, j, n, m = symbols("i j n m", integer=True)
+i, j, k, n, m = symbols("i j k n m", integer=True)

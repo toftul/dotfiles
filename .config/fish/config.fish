@@ -18,7 +18,7 @@ set -x TERMINAL st
 set -x PATH $HOME/.local/bin $PATH # add to PATH local bin
 set -x FZF_DEFAULT_OPTS "--reverse --height 40%" # fzf settings
 set -x RANGER_LOAD_DEFAULT_RC FALSE # make ranger read only local config
-#set -x GTK_USE_PORTAL 1 # for firefox to use KDE file dialog
+set -x GTK_USE_PORTAL 1 # for firefox to use KDE file dialog
 
 
 
