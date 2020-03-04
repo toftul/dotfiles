@@ -5,13 +5,16 @@ set selection-clipboard clipboard
 
 # start maximized
 set window-height 3000
-#set window-width 3000
+set window-width 3000
 
 # change background color
 set default-bg "#282828"
+set completion-group-bg "#282828"
+set tabbar-bg "#282828"
+set statusbar-bg "#282828"
 
 # hide status bar
-set guioptions none
+#set guioptions none
 
 
 # scrolling speed
