@@ -287,3 +287,40 @@ snippet template_standalone "for single equation render" b
 \end{document}
 
 endsnippet 
+
+snippet template_note "for simple notes" b
+
+\documentclass[a4paper, 12pt]{article}
+
+
+% general packages
+\usepackage{amsfonts}
+\usepackage{amsmath} 
+\usepackage{physics} 
+\usepackage{mathtools} 
+\usepackage{graphicx}
+\usepackage[margin = 3cm]{geometry} 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{blindtext} 
+\usepackage{sfmath}
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{$1}
+
+\begin{document}
+
+\maketitle
+
+$0
+
+
+\end{document}
+
+
+endsnippet 
