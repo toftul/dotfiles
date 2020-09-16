@@ -17,7 +17,7 @@ elif [[ "$(hostname)" == "arch" ]]; then
         -dmenu -sort -sorting-method fzf -i -p ">>>")"
 else
     xdg-open "$(rg --no-messages --files ~/Documents \
-        ~/Downloads ~/Music ~/Videos ~/gdrive ~/gdriveShared \
+        ~/Downloads ~/Music ~/Videos ~/gdrive ~/gdrive-shared \
         -g "!{*.srt,*.rar,*.txt,*.zip,*.nfo}" | rofi -threads 0 \
         -dmenu -sort -sorting-method fzf -i -p ">>>")"
 fi
