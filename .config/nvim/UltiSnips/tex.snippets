@@ -222,6 +222,88 @@ endsnippet
 
 
 
+snippet template_revtex "Article template using RevTex library" b
+
+
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
+
+% general packages
+\usepackage{physics} 
+\usepackage{mathtools} 
+\usepackage{graphicx}
+%\usepackage[margin = 3cm]{geometry} 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{blindtext} 
+
+\newcommand{\ITMO}{Department of Physics and Engineering, ITMO University} 
+
+
+\begin{document}
+
+\title{$1}
+
+\author{Ivan Toftul}
+\email{itoftul@itmo.ru}
+\affiliation{\ITMO}
+
+
+\date{\today}
+
+
+\begin{abstract}
+    \blindtext
+\end{abstract}
+
+\maketitle
+
+\section{One}
+
+$0
+
+
+\begin{acknowledgments}
+    Thanks!
+\end{acknowledgments}
+
+\appendix
+
+
+\bibliography{torque_and_spin_anisotropic_bib}% Produces the bibliography via BibTeX.
+
+\end{document}
+
+
+
+endsnippet
+
+
 
 snippet template_review "Paper review template" b
 
