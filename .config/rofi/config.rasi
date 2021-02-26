@@ -1,0 +1,19 @@
+configuration {
+	width: 100;
+	lines: 8;
+	columns: 1;
+	font: "Droid Sans Mono 14";
+	bw: 0;
+	location: 0;
+	padding: 400;
+	eh: 2;
+	auto-select: false;
+	line-margin: 10;
+	separator-style: "none";
+	hide-scrollbar: true;
+	color-normal: "argb:00252936, #ffffff, argb:00252936, argb:002575cd, #ffd5453d";
+	color-urgent: "argb:00252936, #ff0000, argb:00252936, argb:00252936, #ff0000";
+	color-active: "argb:00252936, #252936, argb:00252936, argb:002575cd, #ffc000";
+	color-window: "argb:ef252936,  #25759d, argb:ffffffff";
+	display-run: ">>>";
+}
