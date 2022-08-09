@@ -28,21 +28,11 @@ call plug#begin(stdpath('data') . '/plugged')
 
 " Make sure you use single quotes
 
-Plug 'ervandew/supertab'
-" Plug 'valloric/youcompleteme'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'sirver/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'lervag/vimtex'
-Plug 'julialang/julia-vim'
 Plug 'junegunn/goyo.vim'         " zen mode
-" Plug 'junegunn/limelight.vim'
 Plug 'chrisbra/colorizer'
 Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
-Plug 'freitass/todo.txt-vim'
-Plug 'donRaphaco/neotex', { 'for': 'tex' } " live tex previews
 
 " Initialize plugin system
 call plug#end()
@@ -57,33 +47,6 @@ filetype plugin on
 
 " color scheme
 colorscheme gruvbox
-
-" deoplete
-let g:deoplete#enable_at_startup = 1
-
-" --- vim-tex ---
-let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-
-" neotex
-let g:neotex_delay = 1000
-let g:neotex_latexdiff = 0
-
-" ultisnips
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-j>'
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-" define load path
-"let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
-let g:UltiSnipsSnippetsDir = "~/.config/nvim/UltiSnips"
 
 " git gutter
 " let g:gitgutter_highlight_lines = 1
@@ -179,11 +142,6 @@ noremap <Leader>y "+y
 noremap <Leader>p "+p
 " for neovim only
 "set clipboard+=unnamedplus
-
-
-" todotxt
-" autocmd Filetype todo :Goyo
-" autocmd Filetype todo :Limelight!
 
 
 " clear highlight
